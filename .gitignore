@@ -1,0 +1,7 @@
+# Publish only the website itself
+/*
+!/index.html
+!/images/
+!/audio/
+!/README.md
+!/.gitignore

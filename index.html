@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Van Boys Partnerships | Travel creator Brennon Gibson</title>
+<meta name="description" content="Partner with Brennon Gibson of Van Boys: travel videos, blog posts, guides and hotel stays for a 1.1M Facebook audience and 83M+ YouTube views.">
+<meta name="theme-color" content="#261d16">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Van Boys Partnerships">
+<meta property="og:description" content="Escape the matrix. Explore the world. Sponsorships, stays and brand partnerships with travel creator Brennon Gibson.">
+<meta property="og:image" content="images/hero-facebook.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='19' fill='%23a64b1f'/%3E%3Ctext x='20' y='25' text-anchor='middle' font-family='sans-serif' font-size='14' font-weight='600' fill='white'%3EVB%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap">
+<style>
+/* Layout: sticky header with scroll bar, dark banner, swipeable photo hero, split sections, photo cards with overlaid text, dark band with rounded cards, light footer with email field. Warm off-white, caramel accent, deep warm brown. */
+:root {
+  --bg: #ffffff;
+  --tint: #f7f7f5;
+  --surface: #ffffff;
+  --fg: #2b2118;
+  --muted: #776f65;
+  --line: #e8e3d9;
+  --ink: #261d16;
+  --ink-card: #31261e;
+  --on-ink: #ffffff;
+  --accent: #a64b1f;
+  --on-accent: #ffffff;
+  --shadow: 0 10px 30px rgba(43, 33, 24, 0.1);
+  --display: "Outfit", system-ui, sans-serif;
+  --body: "Outfit", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #15110e; --tint: #1b1612; --surface: #1f1914; --fg: #f3ede4; --muted: #a39a8e; --line: #2e261f;
+    --ink: #0e0b09; --ink-card: #1c1510; --on-ink: #ffffff; --accent: #d9814b; --on-accent: #1a0f08;
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #15110e; --tint: #1b1612; --surface: #1f1914; --fg: #f3ede4; --muted: #a39a8e; --line: #2e261f;
+  --ink: #0e0b09; --ink-card: #1c1510; --on-ink: #ffffff; --accent: #d9814b; --on-accent: #1a0f08;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: calc(76px + env(safe-area-inset-top, 0px)); }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 17px; font-weight: 300; line-height: 1.65; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--bg); }
+h1, h2, h3 { font-family: var(--display); font-weight: 500; line-height: 1.12; margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+p { margin: 0; }
+a { color: inherit; }
+.wrap { max-width: 1120px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.band { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.eyebrow { font-size: 13px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 14px 30px; border-radius: 999px; font-weight: 500; font-size: 17px; text-decoration: none; border: 1.5px solid var(--line); color: var(--fg); background: var(--surface); cursor: pointer; font-family: var(--body); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.btn.ghost { background: transparent; border-color: color-mix(in srgb, var(--on-ink) 55%, transparent); color: var(--on-ink); }
+.btn:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible, .burger:focus-visible, .dot:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.btns { display: flex; gap: 14px; flex-wrap: wrap; }
+
+/* progress + header */
+.progress { position: fixed; top: env(safe-area-inset-top, 0px); left: 0; height: 3px; width: 0; background: var(--accent); z-index: 40; }
+.site-head { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: color-mix(in srgb, var(--bg) 94%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+.nav { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-block: 12px; }
+.logo { display: inline-flex; flex-direction: column; align-items: center; gap: 4px; text-decoration: none; color: var(--fg); }
+.logo svg { display: block; }
+.logo span { font-size: 10px; letter-spacing: 0.24em; font-weight: 400; }
+.nav ul { display: flex; gap: 30px; list-style: none; margin: 0; padding: 0; font-size: 15px; }
+.nav ul a { text-decoration: none; color: var(--muted); }
+.nav ul a:hover, .nav ul a.cur { color: var(--fg); }
+.nav ul a.cur { font-weight: 500; }
+.tint { background: var(--tint); }
+.burger { display: none; width: 44px; height: 44px; border: 0; background: transparent; color: var(--fg); font-size: 26px; cursor: pointer; line-height: 1; }
+.nav .btn { padding: 10px 22px; font-size: 16px; }
+
+/* banner */
+.banner { background: var(--tint); color: var(--fg); border-bottom: 1px solid var(--line); text-align: center; padding-block: 12px; font-size: 15px; }
+.banner a { text-decoration: underline; text-underline-offset: 5px; margin-left: 8px; white-space: nowrap; }
+
+/* hero carousel */
+.hero { position: relative; background: var(--ink); }
+.track { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+.track::-webkit-scrollbar { display: none; }
+.slide > img.shot { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
+.slide { flex: 0 0 100%; scroll-snap-align: start; position: relative; min-height: 560px; display: flex; align-items: center; color: var(--on-ink); }
+.slide::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(180deg, rgba(0,0,0,0.22) 15%, rgba(0,0,0,0.68) 100%); pointer-events: none; }
+.slide .wrap { z-index: 2; }
+.slide.s1 { background: linear-gradient(165deg, #8a7355, #3a3228); }
+.slide.s2 { background: linear-gradient(165deg, #6f7d75, #29302c); }
+.slide .wrap { position: relative; width: 100%; padding-block: 80px 100px; display: grid; gap: 18px; }
+.slide .eyebrow { font-size: 11px; color: color-mix(in srgb, var(--on-ink) 78%, transparent); }
+.slide h1 { font-size: clamp(36px, 6.6vw, 64px); max-width: 17ch; }
+.slide p.lead { max-width: 46ch; font-size: 18px; color: color-mix(in srgb, var(--on-ink) 88%, transparent); }
+.slide .btns { margin-top: 8px; }
+.hero .btn { padding: 12px 26px; font-size: 16px; }
+.hero .btn.ghost { background: rgba(0,0,0,0.35); border-color: rgba(255,255,255,0.3); }
+.dots { position: absolute; left: 0; right: 0; bottom: 30px; z-index: 2; }
+.dots .wrap { display: flex; gap: 8px; align-items: center; }
+.dot { height: 3px; width: 22px; border-radius: 3px; border: 0; padding: 0; cursor: pointer; background: color-mix(in srgb, var(--on-ink) 40%, transparent); }
+.dot.on { width: 34px; background: var(--on-ink); }
+.arrows { margin-left: auto; display: flex; gap: 10px; }
+.arrow { width: 40px; height: 40px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.3); background: rgba(0,0,0,0.3); color: #fff; font-size: 17px; cursor: pointer; display: grid; place-items: center; }
+.arrow:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.down { position: absolute; left: 50%; bottom: 22px; transform: translateX(-50%); color: rgba(255,255,255,0.8); text-decoration: none; z-index: 2; font-size: 18px; }
+
+/* split sections */
+.split { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; padding-block: 84px; }
+.split.rev .art { order: 2; }
+.split h2 { font-size: clamp(30px, 4.4vw, 46px); margin-block: 12px 16px; }
+.split p.body { color: var(--muted); max-width: 50ch; margin-bottom: 26px; }
+.art { aspect-ratio: 4 / 5; max-width: 100%; border-radius: 30px; background: linear-gradient(165deg, #7d6d58, #2f2a23); position: relative; overflow: hidden; display: flex; align-items: flex-end; padding: 28px; color: #fff; }
+.art.alt { background: linear-gradient(165deg, #667069, #262c29); }
+.art.photo { background: #4a3f33; padding: 0; }
+.art.photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 38%; }
+.art.photo::before { content: ""; position: absolute; z-index: 1; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 42%, rgba(0,0,0,.62) 100%); }
+.art.photo b { z-index: 2; font-size: clamp(20px, 2.6vw, 26px); padding: 28px; }
+.art b { position: relative; font-weight: 500; font-size: clamp(22px, 3vw, 30px); max-width: 14ch; line-height: 1.15; }
+.checks { list-style: none; padding: 0; margin: 0 0 28px; display: grid; gap: 10px; }
+.checks li { padding-left: 28px; position: relative; color: var(--muted); }
+.checks li::before { content: ""; position: absolute; left: 0; top: 0.7em; width: 14px; height: 2px; background: var(--accent); }
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px 20px; margin-block: 26px; padding-top: 26px; border-top: 1px solid var(--line); }
+.stat { display: flex; flex-direction: column-reverse; gap: 6px; }
+.stat b { display: block; font-weight: 400; font-size: 30px; line-height: 1; font-variant-numeric: tabular-nums; }
+.stat span { font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); }
+.art-wrap { position: relative; }
+.float { position: absolute; right: -18px; bottom: 28px; z-index: 3; background: var(--surface); border-radius: 22px; box-shadow: var(--shadow); padding: 16px 22px; display: grid; gap: 2px; }
+.float span { font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); }
+.float b { font-weight: 400; font-size: 34px; line-height: 1.1; }
+
+/* cta card */
+.closer { position: relative; border-radius: 30px; overflow: hidden; background: #2f2b26; }
+.closer > img.shot { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: .5; }
+.closer .cta { position: relative; z-index: 1; background: color-mix(in srgb, var(--surface) 92%, transparent); backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px); }
+.cta { background: var(--surface); color: var(--fg); border: 1px solid var(--line); border-radius: 30px; padding: 64px 28px; text-align: center; display: grid; gap: 14px; justify-items: center; box-shadow: var(--shadow); }
+.cta h2 { font-size: clamp(28px, 4.2vw, 44px); max-width: 20ch; }
+.cta p { color: var(--muted); max-width: 46ch; }
+.cta .btns { justify-content: center; margin-top: 10px; }
+.note { font-size: 14px; color: var(--muted); }
+
+/* sections */
+.sec { padding-block: 80px; }
+.sec-head { display: grid; gap: 14px; justify-items: start; margin-bottom: 36px; }
+.sec-head h2 { font-size: clamp(30px, 4.4vw, 46px); }
+.sec-head p { color: var(--muted); max-width: 46ch; }
+.sec-head .btn { padding: 10px 24px; font-size: 16px; }
+
+/* photo cards */
+.pkgs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
+.pkg { position: relative; aspect-ratio: 1 / 1.05; border-radius: 30px; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; gap: 6px; padding: 30px; color: var(--fg); text-decoration: none; min-width: 0; background: var(--surface); border: 1px solid var(--line); }
+.pkg::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 3px; background: var(--accent); }
+.pkg > * { position: relative; }
+.chip { position: absolute; top: 24px; left: 24px; padding: 7px 18px; border-radius: 999px; background: rgba(255,255,255,0.9); color: var(--ink); font-size: 15px; letter-spacing: 0.02em; }
+.pkg h3 { font-size: 34px; }
+.pkg .sub { color: var(--muted); font-size: 17px; }
+.pkg .go { font-size: 19px; margin-top: 10px; color: var(--accent); }
+
+/* quote */
+.quote { background: var(--bg); color: var(--fg); padding-block: 96px; position: relative; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.quote::before { content: ""; position: absolute; left: max(16px, env(safe-area-inset-left, 0px)); right: max(16px, env(safe-area-inset-right, 0px)); top: 0; width: 54px; height: 3px; background: var(--accent); }
+.quote .wrap { position: relative; }
+.quote blockquote { margin: 0; font-weight: 400; font-size: clamp(26px, 4.4vw, 46px); line-height: 1.18; max-width: 22ch; text-wrap: balance; }
+.quote cite { display: block; margin-top: 24px; font-style: normal; font-size: 14px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; opacity: 0.85; }
+
+/* videos */
+.vids { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.vid > img.shot { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; z-index: 0; }
+.vid { text-decoration: none; position: relative; aspect-ratio: 4 / 3.6; border-radius: 30px; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; gap: 14px; padding: 26px; color: #fff; min-width: 0; }
+.vid:nth-child(1) { background: linear-gradient(165deg, #9a8b74, #54483a); }
+.vid:nth-child(2) { background: linear-gradient(165deg, #8b968f, #4a534e); }
+.vid:nth-child(3) { background: linear-gradient(165deg, #a08a6b, #574835); }
+.vid::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(180deg, rgba(0,0,0,0) 28%, rgba(0,0,0,0.72) 100%); pointer-events: none; }
+.vid > :not(.shot) { position: relative; z-index: 2; }
+.play { width: 62px; height: 62px; border-radius: 50%; background: rgba(255,255,255,0.88); display: grid; place-items: center; }
+.play::after { content: ""; border-left: 17px solid #2b2a27; border-top: 10px solid transparent; border-bottom: 10px solid transparent; margin-left: 4px; }
+.vid strong { font-weight: 500; font-size: 26px; line-height: 1.15; }
+.vid .tag { font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; opacity: .85; }
+.vid .big { font-family: var(--display); font-weight: 400; font-size: clamp(38px, 4vw, 52px); line-height: 1; }
+
+/* dark band */
+.dark { background: var(--tint); color: var(--fg); padding-block: 88px; }
+.dark .head { text-align: center; display: grid; gap: 14px; margin-bottom: 40px; }
+.dark .eyebrow { color: var(--muted); }
+.dark h2 { font-size: clamp(30px, 4.4vw, 46px); }
+.steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
+.step { background: var(--surface); border: 1px solid var(--line); border-radius: 30px; padding: 30px; display: grid; gap: 14px; align-content: start; box-shadow: var(--shadow); }
+.num { width: 48px; height: 48px; border-radius: 50%; background: var(--tint); border: 1px solid var(--line); display: grid; place-items: center; font-weight: 500; }
+.step h3 { font-size: 24px; }
+.step p { color: var(--muted); font-size: 17px; }
+
+/* form */
+.formwrap { background: var(--surface); box-shadow: var(--shadow); border-radius: 30px; padding: 44px; display: grid; grid-template-columns: 1fr 1.1fr; gap: 48px; }
+.formwrap h2 { font-size: clamp(30px, 4.2vw, 42px); margin-block: 12px 14px; }
+.formwrap p { color: var(--muted); }
+form { display: grid; gap: 14px; min-width: 0; }
+label { font-size: 14px; font-weight: 500; display: grid; gap: 6px; }
+input, textarea, select { font: inherit; font-weight: 300; color: var(--fg); background: var(--bg); border: 1.5px solid var(--line); border-radius: 18px; padding: 13px 18px; width: 100%; min-width: 0; }
+textarea { min-height: 110px; resize: vertical; }
+.row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+#status { font-size: 15px; min-height: 1.4em; color: var(--muted); display: grid; gap: 10px; justify-items: start; }
+#status .btn { padding: 10px 22px; font-size: 16px; }
+.mail { margin-top: 22px; display: grid; gap: 6px; justify-items: start; }
+.mail strong { font-weight: 500; font-size: 22px; color: var(--fg); overflow-wrap: anywhere; }
+.mail .btn { padding: 8px 20px; font-size: 15px; margin-top: 6px; }
+
+/* footer */
+footer { border-top: 1px solid var(--line); margin-top: 90px; background: var(--tint); }
+.foot { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 44px; padding-block: 60px; }
+footer .logo svg { width: 48px; height: 48px; }
+footer .logo span { font-size: 12px; }
+.foot p.about { color: var(--muted); margin-top: 18px; max-width: 36ch; }
+.sub-form { display: flex; gap: 10px; margin-top: 22px; max-width: 460px; }
+.sub-form input { border-radius: 999px; padding: 13px 20px; }
+.sub-form .btn { padding: 12px 22px; white-space: nowrap; font-size: 16px; }
+.foot h4 { margin: 0 0 16px; font-weight: 500; font-size: 14px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); }
+.foot ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.foot ul a { text-decoration: none; color: var(--muted); }
+.foot ul a:hover { color: var(--fg); }
+.legal { border-top: 1px solid var(--line); padding-block: 22px; font-size: 14px; color: var(--muted); display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+
+/* motion */
+body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+
+.site-head { transition: box-shadow .35s ease; }
+.site-head.scrolled { box-shadow: 0 6px 24px rgba(38, 29, 22, 0.1); }
+@keyframes rise { from { opacity: 0; transform: translate3d(0, 24px, 0); } to { opacity: 1; transform: none; } }
+.slide .wrap > :nth-child(1) { --i: 0; } .slide .wrap > :nth-child(2) { --i: 1; } .slide .wrap > :nth-child(3) { --i: 2; } .slide .wrap > :nth-child(4) { --i: 3; }
+html.anim .slide .wrap > * { animation: rise .9s cubic-bezier(.16, 1, .3, 1) both; animation-delay: calc(var(--i, 0) * 90ms + 120ms); }
+html.anim .rv { opacity: .25; transform: translate3d(0, 28px, 0); transition: opacity 1s cubic-bezier(.16, 1, .3, 1) var(--d, 0ms), transform 1s cubic-bezier(.16, 1, .3, 1) var(--d, 0ms); }
+html.anim .rv.zoom { transform: translate3d(0, 28px, 0) scale(.95); }
+html.anim .rv.in { opacity: 1; transform: none; }
+
+/* back to top */
+.totop { position: fixed; right: calc(16px + env(safe-area-inset-right, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); width: 46px; height: 46px; border-radius: 50%; background: var(--surface); color: var(--fg); box-shadow: var(--shadow); display: grid; place-items: center; text-decoration: none; font-size: 20px; z-index: 25; opacity: 0; pointer-events: none; transition: opacity .2s; border: 1px solid var(--line); }
+.totop.show { opacity: 1; pointer-events: auto; }
+
+@media (max-width: 860px) {
+  .split, .formwrap, .foot { grid-template-columns: 1fr; gap: 32px; }
+  .split { padding-block: 56px; }
+  .split.rev .art { order: 0; }
+  .pkgs, .vids, .steps { grid-template-columns: 1fr; }
+  .formwrap { padding: 26px; }
+  .row2 { grid-template-columns: 1fr; }
+  .burger { display: block; }
+  .nav .btn { display: none; }
+  #menu { display: none; width: 100%; order: 3; }
+  #menu.open { display: block; padding-bottom: 12px; }
+  .nav ul { flex-direction: column; gap: 4px; }
+  .nav ul a { display: block; padding: 10px 0; }
+  .slide { min-height: 600px; }
+  .stats { grid-template-columns: 1fr 1fr; }
+  .float { right: 12px; }
+  .arrows { display: none; }
+  .slide .btns .btn { flex: 1 1 100%; }
+  .sub-form { flex-direction: column; }
+}
+
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* guides & content */
+.guides { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.guide { background: var(--surface); border-radius: 24px; padding: 32px; box-shadow: var(--shadow); display: flex; flex-direction: column; overflow: hidden; }
+.guide h3 { font-size: 25px; margin: 16px 0 10px; }
+.guide p { color: var(--muted); font-size: 16px; }
+.guide .go { margin-top: 16px; color: var(--accent); }
+.guide .go a { text-decoration: none; }
+.guide ul { margin: 16px 0 0; padding-left: 20px; color: var(--muted); font-size: 16px; }
+.guide li { margin-bottom: 8px; }
+.chip.alt { position: static; align-self: flex-start; background: rgba(0,0,0,.06); color: var(--ink); }
+:root[data-theme="dark"] .chip.alt { background: rgba(255,255,255,.1); color: var(--fg); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .chip.alt { background: rgba(255,255,255,.1); color: var(--fg); }
+}
+.guide-covers { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; width: calc(100% + 64px); margin: -32px -32px 22px; padding: 18px 18px 0; background: var(--tint); }
+.guide-covers img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: center; display: block; border-radius: 14px; background: #4a3f33; }
+@media (max-width: 900px) {
+  .guides { grid-template-columns: 1fr; }
+}
+
+/* Hover interactions use separate translate/scale properties so scroll reveals still work. */
+:root { --hover-ease: cubic-bezier(.16, 1, .3, 1); --hover-shadow: 0 4px 10px rgba(38,29,22,.08), 0 24px 48px -24px rgba(38,29,22,.38); }
+.hover-arrow { display: inline-block; }
+.btn { text-align: center; }
+.btn:focus-visible, .arrow:focus-visible, .totop:focus-visible { border-color: var(--accent); }
+.nav ul a, .foot ul a, .guide .go a { text-underline-offset: 5px; }
+@media (hover: hover) and (pointer: fine) {
+  .btn:hover { border-color: var(--accent); background-color: color-mix(in srgb, var(--accent) 10%, var(--surface)); }
+  .btn.primary:hover { background-color: color-mix(in srgb, var(--accent) 88%, var(--fg)); }
+  .btn.ghost:hover { background-color: rgba(0,0,0,.55); border-color: rgba(255,255,255,.8); }
+  .nav ul a:hover, .foot ul a:hover, .guide .go a:hover { color: var(--accent); }
+  .arrow:hover { background-color: rgba(0,0,0,.55); border-color: rgba(255,255,255,.8); }
+  .totop:hover { border-color: var(--accent); color: var(--accent); }
+  .pkg:hover, .guide:hover, .step:hover { box-shadow: var(--hover-shadow); }
+  .pkg:hover, .step:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
+  .vid:hover, .art.photo:hover { box-shadow: var(--hover-shadow); }
+  #brand-work figure:hover > img { box-shadow: var(--hover-shadow); }
+}
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  html.anim :is(.pkg, .guide, .vid, .step, .btn).rv {
+    transition: opacity 1s var(--hover-ease) var(--d, 0ms), transform 1s var(--hover-ease) var(--d, 0ms), translate .4s var(--hover-ease), box-shadow .35s ease, background-color .25s ease, color .25s ease, border-color .25s ease;
+  }
+  .btn { transition: translate .3s var(--hover-ease), box-shadow .3s ease, background-color .25s ease, color .25s ease, border-color .25s ease; }
+  .btn:hover { translate: 0 -3px; box-shadow: 0 10px 22px -12px rgba(38,29,22,.4); }
+  .btn:active { translate: 0 0; box-shadow: none; }
+  .hover-arrow { transition: translate .3s var(--hover-ease); }
+  .btn:hover .hover-arrow, .btn:focus-visible .hover-arrow, .pkg:hover .go .hover-arrow, .guide .go a:hover .hover-arrow { translate: 4px 0; }
+  .pkg, .guide, .vid, .step { transition: translate .4s var(--hover-ease), box-shadow .35s ease, border-color .25s ease; }
+  .pkg:hover, .guide:hover, .vid:hover, .step:hover { translate: 0 -5px; }
+  .art.photo { transition: box-shadow .4s ease; }
+  .art.photo > img, .vid > img.shot { transition: scale .9s var(--hover-ease); }
+  .art.photo:hover > img { scale: 1.05; }
+  .vid:hover > img.shot, .vid:focus-visible > img.shot { scale: 1.06; }
+  .guide-covers img { transition: scale .5s var(--hover-ease), box-shadow .35s ease; }
+  .guide-covers img:hover { scale: 1.03; box-shadow: var(--hover-shadow); }
+  .play { transition: scale .35s var(--hover-ease), background-color .25s ease; }
+  .vid:hover .play, .vid:focus-visible .play { scale: 1.1; background-color: #fff; }
+  #brand-work figure > img { transition: scale .6s var(--hover-ease), translate .6s var(--hover-ease), box-shadow .35s ease; }
+  #brand-work figure:hover > img { scale: 1.015; translate: 0 -4px; }
+  .arrow, .totop { transition: scale .3s var(--hover-ease), opacity .2s ease, background-color .25s ease, border-color .25s ease; }
+  .arrow:hover, .totop:hover { scale: 1.08; }
+  .nav ul a, .foot ul a, .guide .go a { transition: color .2s ease; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .btn, .pkg, .guide, .vid, .step, .art.photo, .art.photo > img, .vid > img.shot, .guide-covers img, .play, .hover-arrow, #brand-work figure > img, .arrow, .totop { transition: none !important; }
+}
+
+/* latest videos (centered grid) */
+.vhead { text-align: center; margin-bottom: 40px; }
+.vhead h2 { font-size: clamp(30px, 4.4vw, 46px); max-width: 22ch; margin-inline: auto; text-wrap: balance; }
+.vhead { display: grid; gap: 12px; justify-items: center; }
+.vhead p:not(.eyebrow) { color: var(--muted); max-width: 52ch; }
+.latest { position: relative; max-width: 960px; margin-inline: auto; aspect-ratio: 16 / 9; border-radius: 24px; overflow: hidden; background: #000; box-shadow: var(--shadow); }
+.latest iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.latest-fallback { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; gap: 16px; color: #fff; text-decoration: none; font-size: 18px; background: radial-gradient(circle at 50% 45%, #3a2b1f, #000 75%); }
+.uploads { max-width: 960px; margin: 22px auto 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px 18px; }
+.uploads[hidden] { display: none; }
+.up { appearance: none; border: 0; background: none; padding: 0; margin: 0; font: inherit; color: var(--fg); text-align: left; cursor: pointer; display: grid; gap: 6px; align-content: start; }
+.up img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; background: #000; outline: 3px solid transparent; outline-offset: 2px; transition: outline-color .2s ease; }
+.up:hover img, .up:focus-visible img { outline-color: color-mix(in srgb, var(--accent) 45%, transparent); }
+.up.on img { outline-color: var(--accent); }
+.up-tag { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); visibility: hidden; }
+.up:first-child .up-tag, .up.on .up-tag { visibility: visible; }
+.up-title { font-size: 15px; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+@media (max-width: 700px) { .uploads { grid-template-columns: 1fr 1fr; gap: 18px 12px; } .up-title { font-size: 14px; } }
+.latest-fallback .play-ring { width: 72px; height: 72px; border-radius: 50%; display: grid; place-items: center; background: var(--accent); color: var(--on-accent); font-size: 26px; padding-left: 4px; }
+.vmore { justify-content: center; margin: 32px 0 0; }
+
+/* bigger tap area for the slide dots; the visible bar stays thin */
+body { margin: 0; }
+.dot { height: 23px; width: 44px; padding: 10px 11px; border-radius: 6px; }
+.dot, .dot.on { background-clip: content-box; }
+.dot.on { width: 56px; }
+
+/* background music toggle (off by default) */
+.vibe { position: fixed; left: calc(16px + env(safe-area-inset-left, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); z-index: 25; display: inline-flex; align-items: center; gap: 10px; padding: 10px 18px 10px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); box-shadow: var(--shadow); font: inherit; font-size: 14px; font-weight: 500; cursor: pointer; }
+.vibe[hidden] { display: none; }
+.vibe:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.vibe .eq { display: inline-flex; align-items: flex-end; gap: 2px; height: 14px; }
+.vibe .eq i { width: 3px; height: 5px; border-radius: 2px; background: var(--accent); }
+.vibe[aria-pressed="true"] { border-color: var(--accent); }
+.vibe[aria-pressed="true"] .eq i { animation: eq 1s ease-in-out infinite; }
+.vibe[aria-pressed="true"] .eq i:nth-child(2) { animation-delay: -.35s; }
+.vibe[aria-pressed="true"] .eq i:nth-child(3) { animation-delay: -.7s; }
+@keyframes eq { 0%, 100% { height: 4px; } 50% { height: 14px; } }
+@media (hover: hover) and (pointer: fine) { .vibe:hover { border-color: var(--accent); color: var(--accent); } }
+@media (prefers-reduced-motion: reduce) { .vibe[aria-pressed="true"] .eq i { animation: none; height: 10px; } }
+@media (max-width: 860px) { .vibe { bottom: calc(84px + env(safe-area-inset-bottom, 0px)); padding: 9px 14px 9px 12px; font-size: 13px; } }
+
+/* shop (coming soon) */
+.stores { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.store { background: var(--surface); border: 1px solid var(--line); border-radius: 24px; padding: 30px; display: flex; flex-direction: column; gap: 12px; align-items: flex-start; box-shadow: var(--shadow); }
+.store h3 { font-size: 25px; }
+.store p { color: var(--muted); font-size: 16px; flex: 1; }
+.btn.soon { cursor: default; color: var(--muted); border: 1.5px dashed color-mix(in srgb, var(--muted) 70%, transparent); background: transparent; }
+.waitlist { margin-top: 20px; background: var(--surface); border: 1px solid var(--line); border-radius: 24px; padding: 30px; display: grid; grid-template-columns: 1fr 1.4fr; gap: 14px 32px; align-items: end; }
+.wl-copy h3 { font-size: 24px; margin-bottom: 6px; }
+.wl-copy p { color: var(--muted); font-size: 16px; }
+.wl-fields { display: grid; grid-template-columns: 1.3fr 1fr auto; gap: 12px; align-items: end; }
+.wl-fields .btn { padding: 13px 24px; }
+#wl-status { grid-column: 1 / -1; min-height: 0; }
+#wl-status:empty { display: none; }
+.shop-collab { margin-top: 18px; }
+@media (hover: hover) and (pointer: fine) { .btn.soon:hover { translate: none; box-shadow: none; border-color: color-mix(in srgb, var(--muted) 70%, transparent); background-color: transparent; } }
+@media (max-width: 860px) {
+  .stores, .waitlist, .wl-fields { grid-template-columns: 1fr; }
+  .store, .waitlist { padding: 24px 22px; }
+  .store .btn, .wl-fields .btn { width: 100%; }
+}
+
+/* audience reach strip under the hero */
+.reach { background: var(--tint); border-bottom: 1px solid var(--line); }
+.reach-row { display: grid; grid-template-columns: repeat(4, 1fr) auto; gap: 20px 28px; align-items: center; padding-block: 28px; }
+.reach .stat b { font-size: 34px; }
+.reach .btn { padding: 12px 24px; font-size: 16px; }
+@media (max-width: 860px) {
+  .reach-row { grid-template-columns: 1fr 1fr; padding-block: 24px; }
+  .reach .stat b { font-size: 28px; }
+  .reach .stat span { font-size: 10px; letter-spacing: 0.1em; white-space: nowrap; }
+  .reach .btn { grid-column: 1 / -1; }
+}
+
+/* film still inset over the media photo */
+.inset { position: absolute; z-index: 3; bottom: -28px; right: -18px; width: 36%; aspect-ratio: 2 / 3; border-radius: 20px; overflow: hidden; border: 4px solid var(--bg); box-shadow: var(--shadow); display: block; color: #fff; text-decoration: none; background: #4a3f33; }
+.inset img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 40%; }
+.inset::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 55%, rgba(0,0,0,.7) 100%); }
+.inset span { position: absolute; z-index: 1; left: 10px; right: 6px; bottom: 10px; font-size: 11px; font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; line-height: 1.3; white-space: nowrap; }
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .inset { transition: translate .4s var(--hover-ease), box-shadow .35s ease; }
+  .inset:hover { translate: 0 -4px; box-shadow: var(--hover-shadow); }
+}
+@media (max-width: 860px) { #why .art-wrap { margin-bottom: 20px; } .inset { right: 12px; bottom: -20px; width: 34%; border-radius: 14px; border-width: 3px; } .inset span { font-size: 9.5px; letter-spacing: 0; left: 8px; bottom: 6px; } }
+
+/* sticky contact bar, phones only */
+.mcta { display: none; }
+
+/* ---------- phones & small tablets ---------- */
+@media (max-width: 860px) {
+  body { font-size: 16px; }
+  .sec { padding-block: 56px; }
+  .dark { padding-block: 60px; }
+  .quote { padding-block: 60px; }
+  footer { margin-top: 56px; }
+  .foot { padding-block: 44px; }
+  .sec-head { margin-bottom: 26px; }
+
+  /* header & menu */
+  .nav { padding-block: 8px; }
+  .logo svg { width: 32px; height: 32px; }
+  .nav ul a { padding: 12px 0; font-size: 17px; }
+  .banner { font-size: 14px; padding-block: 10px; }
+  .banner a { display: inline-block; padding: 4px 0; }
+
+  /* hero */
+  .slide { min-height: 0; }
+  .slide .wrap { padding-block: 56px 76px; gap: 14px; }
+  .slide p.lead { font-size: 16px; line-height: 1.55; }
+  .slide .btns { gap: 10px; }
+  .slide .btns .btn { flex: 1 1 100%; padding: 12px 18px; }
+  .guide .go a { display: inline-block; padding: 10px 0; }
+  .guide .go { margin-top: 8px; }
+  .down { display: none; }
+  .dots { bottom: 14px; }
+
+  /* cards */
+  .pkg { aspect-ratio: auto; padding: 76px 24px 26px; }
+  .pkg h3 { font-size: 28px; }
+  .guide { padding: 26px 22px; }
+  .guide h3 { font-size: 22px; }
+  .step { padding: 24px; }
+  .art { border-radius: 22px; }
+  .split .btns .btn { flex: 1 1 100%; }
+
+  /* videos: one card per row so titles are readable */
+  .latest { border-radius: 16px; }
+  .vmore .btn { flex: 1 1 100%; }
+
+  /* footer */
+  .foot ul { gap: 2px; }
+  .foot ul a { display: inline-block; padding: 9px 0; }
+  .legal { flex-direction: column; gap: 4px; }
+
+  /* sticky contact bar */
+  .mcta { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 24; padding: 10px max(16px, env(safe-area-inset-left, 0px)) calc(10px + env(safe-area-inset-bottom, 0px)); background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-top: 1px solid var(--line); transform: translateY(110%); transition: transform .3s ease; }
+  .mcta.show { transform: none; }
+  .mcta .btn { flex: 1; padding: 13px 20px; }
+  body { padding-bottom: calc(72px + env(safe-area-inset-bottom, 0px)); }
+  .totop { bottom: calc(84px + env(safe-area-inset-bottom, 0px)); }
+}
+@media (prefers-reduced-motion: reduce) { .mcta { transition: none; } }
+</style>
+</head>
+<body>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="site-head" id="top">
+  <div class="wrap nav">
+    <a class="logo" href="#top" aria-label="Van Boys home">
+      <svg width="38" height="38" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1.5"/><text x="20" y="25" text-anchor="middle" font-family="Outfit, sans-serif" font-size="14" font-weight="500" fill="currentColor">VB</text></svg>
+      <span>VANBOYS</span>
+    </a>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu">&#9776;</button>
+    <nav id="menu" aria-label="Main">
+      <ul>
+        <li><a class="cur" href="#top">Home</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#stays">Stays</a></li>
+        <li><a href="#guides">Guides</a></li>
+        <li><a href="#watch">Videos</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#inquire">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="btn primary" href="#inquire">Partner with Brennon</a>
+  </div>
+</header>
+
+<div class="banner band">
+  <span>Travel vlog &middot; Blog &middot; Guides &middot; Hotel stays &middot; Brand partnerships</span><a href="#packages">See packages <span class="hover-arrow" aria-hidden="true">&rarr;</span></a>
+</div>
+
+<section class="hero" aria-label="Featured">
+  <div class="track" id="track">
+    <article class="slide s1">
+      <img class="shot" src="images/hero-facebook.jpg" alt="" width="1600" height="900" decoding="async" fetchpriority="high">
+      <div class="wrap">
+        <p class="eyebrow">World travel &middot; Real connections</p>
+        <h1>Escape the matrix. Explore the world.</h1>
+        <p class="lead">Brennon travels the world to discover the places most visitors miss, sharing the beauty, kindness and culture of each country along the way. His mission is simple: inspire you to break out of the everyday, make that first move and book that first ticket. There&#39;s a whole world waiting.</p>
+        <div class="btns">
+          <a class="btn primary" href="#packages">See packages</a>
+          <a class="btn ghost" href="#inquire">Request a media kit</a>
+        </div>
+      </div>
+    </article>
+    <article class="slide s2">
+      <img class="shot" src="images/hero-thailand.jpg" alt="" width="1600" height="900" loading="lazy" decoding="async">
+      <div class="wrap">
+        <p class="eyebrow">Next series &middot; Thailand</p>
+        <h1>Philippines vs Thailand</h1>
+        <p class="lead">Brennon is taking the channel back to Thailand for a series that sets two island and culture-rich countries side by side, with a written blog series to match. A small number of brands can come along for the trip.</p>
+        <div class="btns">
+          <a class="btn primary" href="#inquire">Partner on this series</a>
+          <a class="btn ghost" href="#packages">See packages</a>
+        </div>
+      </div>
+    </article>
+  </div>
+  <div class="dots"><div class="wrap" id="dots">
+    <button class="dot on" aria-label="Slide 1"></button>
+    <button class="dot" aria-label="Slide 2"></button>
+    <div class="arrows">
+      <button class="arrow" id="prev" aria-label="Previous slide">&larr;</button>
+      <button class="arrow" id="next" aria-label="Next slide"><span class="hover-arrow" aria-hidden="true">&rarr;</span></button>
+    </div>
+  </div></div>
+  <a class="down" href="#why" aria-label="Scroll down">&#8964;</a>
+</section>
+
+<section class="reach" aria-label="Audience reach">
+  <div class="wrap reach-row">
+    <div class="stat"><b data-count="1.1" data-dec="1" data-suffix="M">1.1M</b><span>Facebook followers</span></div>
+    <div class="stat"><b data-count="298" data-dec="0" data-suffix="K">298K</b><span>Instagram followers</span></div>
+    <div class="stat"><b data-count="180" data-dec="0" data-suffix="K">180K</b><span>YouTube subscribers</span></div>
+    <div class="stat"><b data-count="83" data-dec="0" data-suffix="M+">83M+</b><span>YouTube views</span></div>
+    <a class="btn primary" href="#inquire">Request media kit <span class="hover-arrow" aria-hidden="true">&rarr;</span></a>
+  </div>
+</section>
+
+<div class="wrap">
+  <section class="split" id="why">
+    <div class="art-wrap">
+      <div class="art photo">
+        <img src="images/why-partner.jpg" alt="Brennon with Kuya Kim" width="900" height="1200" loading="lazy" decoding="async">
+        <b>Brennon with Kuya Kim</b>
+      </div>
+      <a class="inset" href="https://www.youtube.com/watch?v=atwFqJL8bMk" target="_blank" rel="noopener noreferrer" aria-label="Watch the short film LUTANG on YouTube">
+        <img src="images/lutang-still.jpg" alt="Brennon crouching in a field in a still from the short film LUTANG" width="900" height="1350" loading="lazy" decoding="async">
+        <span>Short film &middot; LUTANG</span>
+      </a>
+    </div>
+    <div>
+      <p class="eyebrow">Media appearances</p>
+      <h2>On TV, podcasts and the big screen</h2>
+      <p class="body">Brennon brought his energy to GMA Network&#39;s TiktoClock as a guest in the Eba&#39;t Adan segment. He also joined Kuya Kim for a conversation on the podcast Ano Ba Talaga? with Kuya Kim.</p>
+      <p class="body">He also acted in <em>LUTANG</em>, a short film shot on Siargao by Bandido Productions, alongside a cast of local talent.</p>
+      <p class="body">From the television studio to a podcast conversation and a film set, get to know the personality behind Van Boys.</p>
+      <div class="btns">
+        <a class="btn primary" href="https://www.youtube.com/watch?v=9xdB2Qo7zec&amp;t=301s" target="_blank" rel="noopener noreferrer">Watch on GMA&#39;s TiktoClock <span class="hover-arrow" aria-hidden="true">&rarr;</span></a>
+        <a class="btn" href="https://www.youtube.com/watch?v=F5VRjisbXdY&amp;t=72s" target="_blank" rel="noopener noreferrer">Watch with Kuya Kim <span class="hover-arrow" aria-hidden="true">&rarr;</span></a>
+        <a class="btn" href="https://www.youtube.com/watch?v=atwFqJL8bMk" target="_blank" rel="noopener noreferrer">Watch the short film LUTANG <span class="hover-arrow" aria-hidden="true">&rarr;</span></a>
+        <a class="btn" href="#packages">Explore partnerships <span class="hover-arrow" aria-hidden="true">&rarr;</span></a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<section class="wrap sec" id="packages">
+  <div class="sec-head">
+    <p class="eyebrow">Sponsorship</p>
+    <h2>Ways to work together</h2>
+    <p>Three sponsorship formats built around how Brennon films. He also writes sponsored blog posts and travel guides, listed below. Custom bundles are welcome.</p>
+    <a class="btn" href="#inquire">Ask for rates</a>
+  </div>
+  <div class="pkgs">
+    <a class="pkg p1" href="#inquire">
+      <span class="chip">Most flexible</span>
+      <h3>Video integration</h3>
+      <p class="sub">60 to 90 seconds inside a full episode. Includes Facebook upload, one Reel cut and a pinned link with your code.</p>
+      <p class="go">Get a quote <span class="hover-arrow" aria-hidden="true">&rarr;</span></p>
+    </a>
+    <a class="pkg p2" href="#inquire">
+      <span class="chip">Biggest reach</span>
+      <h3>Dedicated video</h3>
+      <p class="sub">A full episode built around your brand. Posted on Facebook and YouTube, plus Reels, Shorts and an Instagram post.</p>
+      <p class="go">Get a quote <span class="hover-arrow" aria-hidden="true">&rarr;</span></p>
+    </a>
+    <a class="pkg p3" href="#inquire">
+      <span class="chip">Long term</span>
+      <h3>Series partner</h3>
+      <p class="sub">Placement across a whole series, such as Philippines vs Thailand, plus clips, stories, posts and matching blog write-ups.</p>
+      <p class="go">Get a quote <span class="hover-arrow" aria-hidden="true">&rarr;</span></p>
+    </a>
+  </div>
+</section>
+
+
+<section class="tint" id="brand-work" aria-labelledby="nala-heading">
+  <div class="wrap split">
+    <figure style="margin:0; min-width:0">
+        <img src="images/nala-campaign.jpg" alt="NALA campaign artwork featuring Brennon holding a phone, with the message Send love to the Philippines and creator code VAN20" width="1200" height="1200" loading="lazy" decoding="async" style="display:block; width:100%; height:auto; border-radius:24px">
+      <figcaption class="note" style="margin-top:12px">Past campaign artwork &middot; NALA &times; Van Boys</figcaption>
+    </figure>
+    <div>
+      <p class="eyebrow">Brand partnerships</p>
+      <h2 id="nala-heading">A sponsored Story for NALA</h2>
+      <p class="body">Brennon partnered with NALA on a promotional Story, sharing the brand&#39;s campaign with his audience.</p>
+      <ul class="checks">
+        <li>Sponsored Story placement</li>
+        <li>Branded creative featuring Brennon</li>
+        <li>Creator promo code included in the campaign</li>
+      </ul>
+      <p class="body">Have a campaign in mind? Work with Brennon on a sponsored Story or a wider social campaign.</p>
+      <a class="btn primary" href="#inquire">Plan a brand collaboration <span class="hover-arrow" aria-hidden="true">&rarr;</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="wrap sec" id="stays">
+  <div class="sec-head">
+    <p class="eyebrow">Stays &amp; experiences</p>
+    <h2>Host Brennon, get the story</h2>
+    <p>Not every partnership is a payment. Hotels, resorts, islands and tour operators can host Brennon and receive a video and posts in return.</p>
+    <a class="btn" href="#inquire">Offer a stay</a>
+  </div>
+  <div class="guides">
+    <div class="guide">
+      <span class="chip alt">Hotels &amp; resorts</span>
+      <h3>Stay in exchange for a video</h3>
+      <p>Brennon stays with you and films the property, the room, the surroundings and what guests can do nearby, then publishes it to his audience.</p>
+      <ul>
+        <li>Dedicated video or a feature inside a trip episode</li>
+        <li>Reels, Stories and a Facebook post on top</li>
+        <li>Honest coverage, with the details agreed before he arrives</li>
+      </ul>
+      <p class="go"><a href="#inquire">Start the conversation <span class="hover-arrow" aria-hidden="true">&rarr;</span></a></p>
+    </div>
+    <div class="guide">
+      <span class="chip alt">Tours &amp; destinations</span>
+      <h3>Experiences worth showing</h3>
+      <p>Island hopping, local guides, festivals, transport and activities. Brennon films the experience as a real traveller would live it.</p>
+      <ul>
+        <li>Filmed on location, from the first step to the last</li>
+        <li>Your tour, town or region named and linked</li>
+        <li>Can be combined with a paid package</li>
+      </ul>
+      <p class="go"><a href="#inquire">Start the conversation <span class="hover-arrow" aria-hidden="true">&rarr;</span></a></p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap sec" id="guides">
+  <div class="sec-head">
+    <p class="eyebrow">Guides &amp; content</p>
+    <h2>Guides, blogs and posts</h2>
+    <p>Sponsorship is not only video. Brennon writes up the same trips on the blog and in the travel guides, so a mention keeps working after the episode is out.</p>
+    <a class="btn" href="#inquire">Ask about written work</a>
+  </div>
+  <div class="guides">
+    <div class="guide">
+      <span class="chip alt">Longest shelf life</span>
+      <h3>Travel guide</h3>
+      <p>A city or country guide written and photographed by Brennon on location, sold as a download with your section, link or code inside it.</p>
+      <ul>
+        <li>Written, shot and formatted by Brennon</li>
+        <li>Your brand inside the guide, not in a banner ad</li>
+        <li>Announced on the blog, Facebook and Instagram at launch</li>
+      </ul>
+      <p class="go"><a href="#inquire">Get a quote <span class="hover-arrow" aria-hidden="true">&rarr;</span></a></p>
+    </div>
+    <div class="guide">
+      <span class="chip alt">Fastest to book</span>
+      <h3>Sponsored blog post</h3>
+      <p>A written story from a real trip, with photographs, product mentions and links to your site. Published on the blog in Brennon&#39;s voice.</p>
+      <ul>
+        <li>Around 800&ndash;1,500 words, with your images if you have them</li>
+        <li>Links to your site, plus one to your social profile</li>
+        <li>Shared on Facebook, Instagram and the YouTube community tab</li>
+      </ul>
+      <p class="go"><a href="#inquire">Get a quote <span class="hover-arrow" aria-hidden="true">&rarr;</span></a></p>
+    </div>
+    <div class="guide">
+      <span class="chip alt">Social only</span>
+      <h3>Media posts</h3>
+      <p>Shorter formats across the channels: a Reel, an Instagram Story set, a Facebook photo post or a YouTube community post.</p>
+      <ul>
+        <li>Sold on their own or alongside a video integration</li>
+        <li>Publish date agreed before filming</li>
+        <li>Reach and engagement figures after each post</li>
+      </ul>
+      <p class="go"><a href="#inquire">Get a quote <span class="hover-arrow" aria-hidden="true">&rarr;</span></a></p>
+    </div>
+    <div class="guide">
+      <span class="chip alt">Ongoing</span>
+      <h3>Content retainer</h3>
+      <p>Videos, blog posts and social across a set period, for brands that want to stay in front of the audience between series.</p>
+      <ul>
+        <li>Minimum three months, planned around the filming calendar</li>
+        <li>First option on new series and guide slots</li>
+        <li>Monthly summary of reach, clicks and comments</li>
+      </ul>
+      <p class="go"><a href="#inquire">Get a quote <span class="hover-arrow" aria-hidden="true">&rarr;</span></a></p>
+    </div>
+  </div>
+</section>
+
+<section class="quote band">
+  <div class="wrap">
+    <blockquote>Escape the matrix. The world is waiting.</blockquote>
+    <cite>Van Boys</cite>
+  </div>
+</section>
+
+<section class="tint" id="watch">
+<div class="wrap sec">
+  <div class="vhead">
+    <p class="eyebrow">On YouTube</p>
+    <h2>Latest uploads</h2>
+    <p>New episodes every few days. These are Brennon&#39;s newest uploads, straight from YouTube. Pick one to watch it right here.</p>
+  </div>
+  <!-- Always current: this is the channel's automatic uploads playlist (UC… channel id with UU… in front), straight from YouTube. -->
+  <!-- The player is loaded by script as the section nears the screen (browser lazy-loading left it blank). -->
+  <div class="latest">
+    <a class="latest-fallback" href="https://www.youtube.com/@vanboys222/videos" target="_blank" rel="noopener"><span class="play-ring" aria-hidden="true">&#9654;</span>Watch the latest episode on YouTube</a>
+    <iframe id="yt-latest" data-src="https://www.youtube-nocookie.com/embed/videoseries?list=UUffVZY3BsBh9EntRbrR_VVg&amp;rel=0" title="Van Boys: latest YouTube episode" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen hidden></iframe>
+  </div>
+  <div class="uploads" id="uploads" aria-label="Latest uploads" hidden></div>
+  <p class="vmore btns">
+    <a class="btn primary" href="https://www.youtube.com/@vanboys222?sub_confirmation=1" target="_blank" rel="noopener">Subscribe on YouTube</a>
+    <a class="btn" href="https://www.youtube.com/@vanboys222/videos" target="_blank" rel="noopener">See all videos <span class="hover-arrow" aria-hidden="true">&rarr;</span></a>
+  </p>
+</div>
+</section>
+
+
+<div class="wrap">
+  <section class="split rev" id="about">
+    <div class="art-wrap">
+      <div class="art alt photo">
+        <img src="images/about-brennon.jpg" alt="Brennon Gibson of Van Boys" width="1024" height="1024" loading="lazy" decoding="async">
+        <b>Brennon Gibson · Van Boys</b>
+      </div>
+      <div class="float"><span>On Facebook</span><b data-count="1.1" data-dec="1" data-suffix="M">1.1M</b></div>
+    </div>
+    <div>
+      <p class="eyebrow">About</p>
+      <h2>Hi, I'm Brennon</h2>
+      <p class="body">I&#39;m Brennon Gibson, the traveller behind Van Boys. I&#39;ve spent the past seven years chasing a dream: seeing the world and bringing you along for the journey.</p>
+      <p class="body">From island life in the Philippines to adventures across Asia and beyond, I love finding the places most visitors miss. The beauty, the culture and the kindness of the people I meet are what keep me exploring &mdash; and what I want to share with you.</p>
+      <p class="body">My mission? Help you escape the matrix and take that first step. Book the ticket, meet new people and see what&#39;s out there for yourself.</p>
+      <div class="stats">
+        <div class="stat"><b data-count="1.1" data-dec="1" data-suffix="M">1.1M</b><span>Facebook</span></div>
+        <div class="stat"><b data-count="298" data-dec="0" data-suffix="K">298K</b><span>Instagram</span></div>
+        <div class="stat"><b data-count="180" data-dec="0" data-suffix="K">180K</b><span>YouTube</span></div>
+        <div class="stat"><b data-count="83" data-dec="0" data-suffix="M+">83M+</b><span>YouTube views</span></div>
+      </div>
+      <p class="note">Figures are rounded. YouTube totals checked 16 November 2026, Instagram 19 November 2026. Request a media kit for audience insights and partnership details.</p>
+      <div class="btns" style="margin-top:22px">
+        <a class="btn" href="https://www.facebook.com/profile.php?id=61559630433920" target="_blank" rel="noopener">Follow on Facebook <span class="hover-arrow" aria-hidden="true">&rarr;</span></a>
+        <a class="btn" href="https://www.instagram.com/vanboys222/" target="_blank" rel="noopener">Instagram <span class="hover-arrow" aria-hidden="true">&rarr;</span></a>
+        <a class="btn" href="https://www.youtube.com/@vanboys222" target="_blank" rel="noopener">YouTube <span class="hover-arrow" aria-hidden="true">&rarr;</span></a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<section class="dark band" id="process">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">How it works</p>
+      <h2>From first message to published video</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="num">1</div><h3>Say hello</h3><p>Tell Brennon about your brand, goals and timing.</p></div>
+      <div class="step"><div class="num">2</div><h3>Pick a format</h3><p>He matches you to a video integration, a dedicated video, a series, or a written piece in the blog or a guide.</p></div>
+      <div class="step"><div class="num">3</div><h3>It gets filmed</h3><p>Your product goes into a real shoot. You approve key details first.</p></div>
+      <div class="step"><div class="num">4</div><h3>Publish and report</h3><p>The video, post or guide goes live, then you get a performance summary.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="tint" id="shop" aria-labelledby="shop-heading">
+  <div class="wrap sec">
+    <div class="sec-head">
+      <p class="eyebrow">Shop &middot; Coming soon</p>
+      <h2 id="shop-heading">Wear the movement. Escape the matrix.</h2>
+      <p>Van Boys merch is on the way, with a store for the Philippines and one that ships worldwide, so wherever you watch from, you pay a fair price and get normal delivery.</p>
+    </div>
+
+    <div class="stores">
+      <!-- When the Shopee store is live: change the <span class="btn soon"> below to
+           <a class="btn primary" href="YOUR-SHOPEE-LINK" target="_blank" rel="noopener">Shop on Shopee →</a>
+           and remove the "Coming soon" chip. -->
+      <div class="store">
+        <span class="chip alt">Coming soon</span>
+        <h3>In the Philippines</h3>
+        <p>Order on Shopee and pay with GCash, Maya or cash on delivery. Local shipping, no import fees.</p>
+        <span class="btn soon" aria-disabled="true">Shop on Shopee</span>
+      </div>
+      <!-- When the worldwide store is live: same swap, with the worldwide store link. -->
+      <div class="store">
+        <span class="chip alt">Coming soon</span>
+        <h3>Everywhere else</h3>
+        <p>Our worldwide store will ship straight to your door, from the USA and Europe to Australia and the rest of Asia.</p>
+        <span class="btn soon" aria-disabled="true">Worldwide store</span>
+      </div>
+    </div>
+
+    <form class="waitlist" id="waitlist">
+      <div class="wl-copy">
+        <h3>Be first when the shop opens</h3>
+        <p>Tell us where you are and we&#39;ll let you know when your store launches.</p>
+      </div>
+      <div class="wl-fields">
+        <label for="wl-email">Email<input id="wl-email" type="email" autocomplete="email" placeholder="you@email.com" required></label>
+        <label for="wl-region">Where are you?
+          <select id="wl-region">
+            <option>Philippines</option>
+            <option>Rest of Asia</option>
+            <option>India</option>
+            <option>USA &amp; Canada</option>
+            <option>UK &amp; Europe</option>
+            <option>Australia &amp; New Zealand</option>
+            <option>Somewhere else</option>
+          </select>
+        </label>
+        <button class="btn primary" type="submit">Notify me</button>
+      </div>
+      <p class="note" id="wl-status" role="status"></p>
+    </form>
+    <p class="note shop-collab">Brand or designer who wants to make merch with Van Boys? <a href="#inquire">Get in touch</a>.</p>
+  </div>
+</section>
+
+<section class="wrap sec" id="inquire">
+  <div class="formwrap">
+    <div>
+      <p class="eyebrow">Contact</p>
+      <h2>Your brand, on the next trip</h2>
+      <p>Slots fill by season. Send a few details and Brennon will reply with a media kit and rates. For blog posts and guides, say which one you have in mind.</p>
+      <div class="mail">
+        <span class="note">Business inquiries</span>
+        <strong id="mail-addr">bcgib22@gmail.com</strong>
+        <button class="btn copy" type="button" id="copy-mail">Copy email</button>
+      </div>
+    </div>
+    <form id="inq">
+      <div class="row2">
+        <label for="f-name">Your name<input id="f-name" type="text" autocomplete="name" required></label>
+        <label for="f-brand">Brand<input id="f-brand" type="text" required></label>
+      </div>
+      <label for="f-email">Email<input id="f-email" type="email" autocomplete="email" required></label>
+      <label for="f-type">Interested in
+        <select id="f-type">
+          <option>Video integration</option>
+          <option>Sponsored blog post</option>
+          <option>Travel guide</option>
+          <option>Media posts</option>
+          <option>Content retainer</option>
+          <option>Dedicated video</option>
+          <option>Series partner</option>
+          <option>Hotel or resort stay</option>
+          <option>Tour or experience</option>
+          <option>Merch</option>
+          <option>Not sure yet</option>
+        </select>
+      </label>
+      <label for="f-msg">Message<textarea id="f-msg"></textarea></label>
+      <button class="btn primary" type="submit">Send inquiry</button>
+      <p id="status" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="closer">
+    <div class="cta">
+    <h2>Your brand could be in the next episode or post</h2>
+    <p>Slots fill by season. Start an inquiry, or message Brennon on Facebook where the community is biggest.</p>
+    <div class="btns">
+      <a class="btn primary" href="#inquire">Start an inquiry</a>
+      <a class="btn ghost" href="https://www.facebook.com/profile.php?id=61559630433920" target="_blank" rel="noopener">Message on Facebook</a>
+    </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot">
+    <div>
+      <a class="logo" href="#top" aria-label="Van Boys home">
+        <svg width="48" height="48" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1.5"/><text x="20" y="25" text-anchor="middle" font-family="Outfit, sans-serif" font-size="14" font-weight="500" fill="currentColor">VB</text></svg>
+        <span>VANBOYS</span>
+      </a>
+      <p class="about">Islands, culture and travel stories, with a few brands along for the ride.</p>
+      <form class="sub-form" id="sub">
+        <input id="sub-email" type="email" placeholder="you@brand.com" aria-label="Email address" required>
+        <button class="btn primary" type="submit">Get media kit</button>
+      </form>
+      <p class="note" style="margin-top:10px" id="sub-status" role="status">Media kit and rates. No spam.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#stays">Stays</a></li>
+        <li><a href="#guides">Guides</a></li>
+        <li><a href="#watch">Videos</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#inquire">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Follow</h4>
+      <ul>
+        <li><a href="https://www.facebook.com/profile.php?id=61559630433920" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="https://www.instagram.com/vanboys222/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.youtube.com/@vanboys222" target="_blank" rel="noopener">YouTube</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap legal"><span>&copy; 2026 Van Boys. All rights reserved.</span><span>Real places. Real people.</span></div>
+</footer>
+
+<a class="totop" id="totop" href="#top" aria-label="Back to top">&uarr;</a>
+<!-- Background music: put the track at audio/vibe.mp3. The button stays hidden until that file exists. -->
+<button class="vibe" id="vibe" type="button" aria-pressed="false" hidden>
+  <span class="eq" aria-hidden="true"><i></i><i></i><i></i></span>
+  <span class="vibe-label">Play the vibe</span>
+</button>
+<div class="mcta" id="mcta"><a class="btn primary" href="#inquire">Partner with Brennon <span class="hover-arrow" aria-hidden="true">&rarr;</span></a></div>
+
+<script>
+(function () {
+  var bar = document.getElementById('progress');
+  var topBtn = document.getElementById('totop');
+  var head = document.querySelector('.site-head');
+  var mcta = document.getElementById('mcta');
+  var contact = document.getElementById('inquire');
+  var foot = document.querySelector('footer');
+  function onScroll() {
+    var h = document.documentElement;
+    var max = h.scrollHeight - h.clientHeight;
+    var y = window.scrollY || h.scrollTop || 0;
+    bar.style.width = (max > 0 ? Math.min(100, (y / max) * 100) : 0) + '%';
+    topBtn.classList.toggle('show', y > 600);
+    head.classList.toggle('scrolled', y > 8);
+    /* sticky contact bar: after the hero, hidden while the contact form or footer is on screen */
+    var vh = window.innerHeight;
+    var c = contact.getBoundingClientRect(), f = foot.getBoundingClientRect();
+    var near = (c.top < vh && c.bottom > 0) || f.top < vh;
+    mcta.classList.toggle('show', y > 500 && !near);
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll, { passive: true });
+  onScroll();
+
+  var burger = document.getElementById('burger');
+  var menu = document.getElementById('menu');
+  function setMenu(open) {
+    menu.classList.toggle('open', open);
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    burger.innerHTML = open ? '&#10005;' : '&#9776;';
+    burger.setAttribute('aria-label', open ? 'Close menu' : 'Menu');
+  }
+  burger.addEventListener('click', function () { setMenu(!menu.classList.contains('open')); });
+  menu.addEventListener('click', function (e) {
+    if (e.target.closest('a')) setMenu(false);
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && menu.classList.contains('open')) { setMenu(false); burger.focus(); }
+  });
+
+  var track = document.getElementById('track');
+  document.getElementById('prev').addEventListener('click', function () { track.scrollBy({ left: -track.clientWidth, behavior: 'smooth' }); });
+  document.getElementById('next').addEventListener('click', function () { track.scrollBy({ left: track.clientWidth, behavior: 'smooth' }); });
+  var dots = Array.prototype.slice.call(document.querySelectorAll('#dots .dot'));
+  function setDot() {
+    var i = Math.round(track.scrollLeft / track.clientWidth);
+    dots.forEach(function (d, n) { d.classList.toggle('on', n === i); });
+  }
+  track.addEventListener('scroll', setDot, { passive: true });
+  dots.forEach(function (d, n) {
+    d.addEventListener('click', function () { track.scrollTo({ left: n * track.clientWidth, behavior: 'smooth' }); });
+  });
+
+  /* count-up numbers: final values are in the HTML, so they stay correct without script */
+  var counters = Array.prototype.slice.call(document.querySelectorAll('[data-count]'));
+  var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function fmt(el, v) {
+    el.textContent = v.toFixed(parseInt(el.getAttribute('data-dec'), 10)) + el.getAttribute('data-suffix');
+  }
+  function run(el) {
+    var end = parseFloat(el.getAttribute('data-count'));
+    var t0 = null;
+    function step(t) {
+      if (t0 === null) t0 = t;
+      var p = Math.min(1, (t - t0) / 1600);
+      fmt(el, end * (1 - Math.pow(1 - p, 3)));
+      if (p < 1) requestAnimationFrame(step);
+    }
+    fmt(el, 0);
+    requestAnimationFrame(step);
+  }
+  if (!calm && 'IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { io.unobserve(en.target); run(en.target); }
+      });
+    }, { threshold: 0.6 });
+    counters.forEach(function (el) { io.observe(el); });
+  }
+
+  /* YouTube player: load it shortly before it scrolls into view. Opened straight from disk (file://)
+     YouTube refuses to play (Error 153), so the "Watch on YouTube" card stays instead. */
+  var yt = document.getElementById('yt-latest');
+  var upWrap = document.getElementById('uploads'), ytPlayer = null, UPLOADS = 6;
+  function loadYT() {
+    if (yt.src) return;
+    yt.src = yt.getAttribute('data-src') + '&enablejsapi=1&origin=' + encodeURIComponent(location.origin);
+    yt.hidden = false;
+    /* YouTube's player API hands over the uploads playlist, newest first, so the row stays current by itself */
+    window.onYouTubeIframeAPIReady = function () {
+      ytPlayer = new YT.Player('yt-latest', { events: { onReady: waitForList, onStateChange: markPlaying } });
+    };
+    var s = document.createElement('script');
+    s.src = 'https://www.youtube.com/iframe_api';
+    document.head.appendChild(s);
+  }
+  function waitForList() {
+    var tries = 0, t = setInterval(function () {
+      var ids = ytPlayer.getPlaylist && ytPlayer.getPlaylist();
+      if (ids && ids.length) { clearInterval(t); buildUploads(ids.slice(0, UPLOADS)); }
+      else if (++tries > 40) clearInterval(t);
+    }, 250);
+  }
+  function buildUploads(ids) {
+    ids.forEach(function (id, i) {
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'up' + (i === 0 ? ' on' : '');
+      var img = document.createElement('img');
+      img.src = 'https://i.ytimg.com/vi/' + id + '/mqdefault.jpg'; img.alt = ''; img.loading = 'lazy'; img.width = 320; img.height = 180;
+      var tag = document.createElement('span'); tag.className = 'up-tag'; tag.textContent = i === 0 ? 'Newest' : 'Now playing';
+      var title = document.createElement('span'); title.className = 'up-title'; title.textContent = 'Van Boys episode';
+      b.appendChild(img); b.appendChild(tag); b.appendChild(title);
+      b.addEventListener('click', function () {
+        ytPlayer.playVideoAt(i);
+        yt.parentNode.scrollIntoView({ behavior: calm ? 'auto' : 'smooth', block: 'center' });
+      });
+      upWrap.appendChild(b);
+      fetch('https://www.youtube.com/oembed?format=json&url=' + encodeURIComponent('https://www.youtube.com/watch?v=' + id))
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (j) { if (j && j.title) { title.textContent = j.title; b.setAttribute('aria-label', 'Play ' + j.title); } })
+        .catch(function () {});
+    });
+    upWrap.hidden = false;
+  }
+  function markPlaying() {
+    if (!ytPlayer || !ytPlayer.getPlaylistIndex) return;
+    var cur = ytPlayer.getPlaylistIndex();
+    Array.prototype.forEach.call(upWrap.children, function (b, i) { b.classList.toggle('on', i === cur); });
+  }
+  if (location.protocol !== 'file:') {
+    if ('IntersectionObserver' in window) {
+      var yio = new IntersectionObserver(function (entries) {
+        if (entries[0].isIntersecting) { yio.disconnect(); loadYT(); }
+      }, { rootMargin: '800px 0px' });
+      yio.observe(yt.parentNode);
+    } else { loadYT(); }
+  }
+
+  /* fade-up reveals: content stays visible if script or observer is unavailable */
+  if (!calm && 'IntersectionObserver' in window) {
+    document.documentElement.classList.add('anim');
+    var sels = ['.sec-head > *', '.split > div:last-child > *', '.art-wrap', '.pkgs > *', '.guides > *', '.latest', '.vhead > *', '.vmore', '.steps > *', '.dark .head > *', '.formwrap > div > *', '.formwrap form', '.cta > *', '.foot > div', '.stores > *', '.waitlist', '.shop-collab', '.quote blockquote', '.quote cite'];
+    var rio = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add('in'); rio.unobserve(en.target); }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+    sels.forEach(function (s) {
+      Array.prototype.slice.call(document.querySelectorAll(s)).forEach(function (el) {
+        var idx = Array.prototype.indexOf.call(el.parentNode.children, el);
+        el.classList.add('rv');
+        if (el.classList.contains('art-wrap')) el.classList.add('zoom');
+        el.style.setProperty('--d', Math.min(idx, 4) * 90 + 'ms');
+        rio.observe(el);
+      });
+    });
+  }
+
+  /* hero autoplay, paused while the visitor is interacting */
+  var lastTouch = Date.now();
+  ['pointerdown', 'wheel', 'touchstart', 'click'].forEach(function (ev) {
+    track.addEventListener(ev, function () { lastTouch = Date.now(); }, { passive: true });
+  });
+  document.getElementById('prev').addEventListener('click', function () { lastTouch = Date.now(); });
+  document.getElementById('next').addEventListener('click', function () { lastTouch = Date.now(); });
+  setInterval(function () {
+    if (calm || document.hidden || Date.now() - lastTouch < 9000) return;
+    var hb = track.getBoundingClientRect();
+    if (hb.bottom < 0 || hb.top > window.innerHeight) return;
+    var i = Math.round(track.scrollLeft / track.clientWidth);
+    track.scrollTo({ left: ((i + 1) % dots.length) * track.clientWidth, behavior: 'smooth' });
+  }, 6500);
+
+  var MAIL = 'bcgib22@gmail.com';
+  function copyText(text, done) {
+    function fallback() { done(false); }
+    try {
+      navigator.clipboard.writeText(text).then(function () { done(true); }, fallback);
+    } catch (err) { fallback(); }
+  }
+  var copyMail = document.getElementById('copy-mail');
+  copyMail.addEventListener('click', function () {
+    copyText(MAIL, function (ok) { copyMail.textContent = ok ? 'Copied' : 'Select the email above'; });
+  });
+
+  document.getElementById('inq').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var text = 'Name: ' + document.getElementById('f-name').value +
+      '\nBrand: ' + document.getElementById('f-brand').value +
+      '\nEmail: ' + document.getElementById('f-email').value +
+      '\nInterested in: ' + document.getElementById('f-type').value +
+      '\n\n' + document.getElementById('f-msg').value;
+    var subject = 'Partnership inquiry: ' + document.getElementById('f-brand').value + ' (' + document.getElementById('f-type').value + ')';
+    window.location.href = 'mailto:' + MAIL + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(text);
+    var box = document.getElementById('status');
+    box.textContent = '';
+    var line = document.createElement('span');
+    line.textContent = 'Your email app should open with the inquiry filled in. If it didn’t, copy it and send it to ' + MAIL + '.';
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'btn';
+    btn.textContent = 'Copy inquiry';
+    btn.addEventListener('click', function () {
+      copyText(text, function (ok) { btn.textContent = ok ? 'Copied' : 'Copy failed'; });
+    });
+    box.appendChild(line);
+    box.appendChild(btn);
+  });
+  /* background music: off by default, loads only when the visitor presses play */
+  (function () {
+    var btn = document.getElementById('vibe');
+    var label = btn.querySelector('.vibe-label');
+    var SRC = 'audio/vibe.mp3';
+    var VOL = 0.35;          /* background level */
+    var FADE_IN = 1.5;       /* seconds, when the visitor presses play */
+    var FADE_OUT = 0.8;      /* seconds, when the visitor presses pause */
+    var LOOP_OUT = 3;        /* seconds of fade-out before the track ends */
+    var LOOP_IN = 2;         /* seconds of fade-in when it starts again */
+    var audio = null, ctx = null, gain = null, volTimer = null, pauseTimer = null;
+    var wantPlay = false, pausedByHide = false, loopFading = false;
+
+    /* only show the button when the track is actually on the server */
+    if (!window.fetch || location.protocol === 'file:') return;
+    fetch(SRC, { method: 'HEAD' }).then(function (r) { if (r.ok) btn.hidden = false; }).catch(function () {});
+
+    function setup() {
+      audio = new Audio(SRC);
+      audio.preload = 'auto';          /* no audio.loop: we restart it ourselves so the loop can fade */
+      audio.volume = 0;
+      /* Web Audio gain controls volume everywhere, including iPhones, which ignore audio.volume */
+      var AC = window.AudioContext || window.webkitAudioContext;
+      if (AC) {
+        try {
+          ctx = new AC();
+          gain = ctx.createGain();
+          gain.gain.value = 0;
+          ctx.createMediaElementSource(audio).connect(gain);
+          gain.connect(ctx.destination);
+          audio.volume = 1;
+        } catch (err) { ctx = null; gain = null; audio.volume = 0; }
+      }
+      audio.addEventListener('timeupdate', function () {
+        if (!wantPlay || loopFading || !audio.duration) return;
+        var left = audio.duration - audio.currentTime;
+        if (left <= LOOP_OUT) { loopFading = true; rampTo(0, left); }
+      });
+      audio.addEventListener('ended', function () {
+        loopFading = false;
+        if (!wantPlay) return;
+        audio.currentTime = 0;
+        start(LOOP_IN);
+      });
+    }
+    function rampTo(to, secs) {
+      secs = Math.max(0.05, secs);
+      if (gain) {
+        var now = ctx.currentTime;
+        gain.gain.cancelScheduledValues(now);
+        gain.gain.setValueAtTime(gain.gain.value, now);
+        gain.gain.linearRampToValueAtTime(to, now + secs);
+        return;
+      }
+      clearInterval(volTimer);
+      var from = audio.volume, t0 = Date.now();
+      volTimer = setInterval(function () {
+        var p = Math.min(1, (Date.now() - t0) / (secs * 1000));
+        audio.volume = Math.max(0, Math.min(1, from + (to - from) * p));
+        if (p >= 1) clearInterval(volTimer);
+      }, 50);
+    }
+    function silenceNow() {
+      if (gain) { gain.gain.cancelScheduledValues(ctx.currentTime); gain.gain.setValueAtTime(0, ctx.currentTime); }
+      else { clearInterval(volTimer); audio.volume = 0; }
+    }
+    function start(secs) {
+      clearTimeout(pauseTimer);
+      loopFading = false;
+      if (ctx && ctx.state === 'suspended') ctx.resume();
+      var p = audio.play();
+      if (p && p.catch) p.catch(function () { wantPlay = false; setUI(false); });
+      rampTo(VOL, secs);
+    }
+    function stop() {
+      loopFading = false;
+      rampTo(0, FADE_OUT);
+      clearTimeout(pauseTimer);
+      pauseTimer = setTimeout(function () { if (!wantPlay) audio.pause(); }, FADE_OUT * 1000 + 60);
+    }
+    function setUI(on) {
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      label.textContent = on ? 'Pause the vibe' : 'Play the vibe';
+    }
+
+    btn.addEventListener('click', function () {
+      wantPlay = !wantPlay;
+      setUI(wantPlay);
+      if (wantPlay) { if (!audio) setup(); start(FADE_IN); }
+      else stop();
+    });
+    /* clicking into the YouTube player moves focus into its iframe: fade the music out so they don't clash */
+    window.addEventListener('blur', function () {
+      setTimeout(function () {
+        var el = document.activeElement;
+        if (audio && wantPlay && el && el.tagName === 'IFRAME') { wantPlay = false; setUI(false); stop(); }
+      }, 0);
+    });
+    document.addEventListener('visibilitychange', function () {
+      if (!audio || !wantPlay) return;
+      if (document.hidden) { pausedByHide = true; clearTimeout(pauseTimer); audio.pause(); silenceNow(); }
+      else if (pausedByHide) { pausedByHide = false; start(FADE_IN); }
+    });
+  })();
+
+  /* shop waitlist: opens an email to Brennon until a mailing-list service is connected */
+  document.getElementById('waitlist').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var email = document.getElementById('wl-email').value;
+    var region = document.getElementById('wl-region').value;
+    window.location.href = 'mailto:' + MAIL + '?subject=' + encodeURIComponent('Shop waitlist: ' + region) +
+      '&body=' + encodeURIComponent('Hi Brennon,\n\nPlease let me know when the Van Boys shop opens.\n\nEmail: ' + email + '\nRegion: ' + region + '\n');
+    document.getElementById('wl-status').textContent = 'Your email app should open with your details filled in. Hit send and you’re on the list.';
+  });
+
+  document.getElementById('sub').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var from = document.getElementById('sub-email').value;
+    window.location.href = 'mailto:' + MAIL + '?subject=' + encodeURIComponent('Media kit request') +
+      '&body=' + encodeURIComponent('Hi Brennon,\n\nPlease send your media kit and rates to ' + from + '.\n\nThanks!');
+    document.getElementById('sub-status').textContent = 'Your email app should open. If not, email ' + MAIL + ' for the media kit and rates.';
+  });
+})();
+</script>
+
+</body>
+</html>
