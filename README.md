@@ -4,6 +4,8 @@ A sponsor and partnership website for travel creator **Brennon Gibson of Van Boy
 
 **Live site:** https://jacobdvaldez.github.io/vanboys-partnerships/
 
+[![Van Boys Partnerships homepage](screenshots/home.jpg)](https://jacobdvaldez.github.io/vanboys-partnerships/)
+
 ## What it does
 - Single-page site that works on phones and desktop
 - Showcases audience reach and past campaigns
