@@ -1,22 +1,22 @@
-# Van Boys Partnerships
+# Van Boys Website
 
-A sponsor and partnership website for travel creator **Brennon Gibson of Van Boys**, whose audience includes 1.1M on Facebook and 83M+ YouTube views. Brands use it to see what Van Boys offers (travel videos, blog posts, guides and hotel stays) and to get in touch.
+A responsive single-page website for **Van Boys**, the travel channel of creator Brennon Gibson. It introduces the channel, showcases his travel content and gives visitors and brands an easy way to get in touch.
 
-**Live site:** https://jacobdvaldez.github.io/vanboys-partnerships/
+**Live site:** https://jacobdvaldez.github.io/vanboys-website/
 
-[![Van Boys Partnerships homepage](screenshots/home.jpg)](https://jacobdvaldez.github.io/vanboys-partnerships/)
+[![Van Boys website homepage](screenshots/home.jpg)](https://jacobdvaldez.github.io/vanboys-website/)
 
-## What it does
-- Single-page site that works on phones and desktop
-- Showcases audience reach and past campaigns
-- Contact and inquiry forms for sponsors and brands
+## Features
+- Responsive layout for phones and desktop
+- Photo-led sections introducing the creator and his travel content
+- Contact and inquiry forms
 - Optional background music toggle
 
 ## Built with
-Plain HTML, CSS and JavaScript, with no frameworks and no build step. It's hosted free on GitHub Pages.
+HTML, CSS and JavaScript, with no frameworks or build step. Hosted on GitHub Pages.
 
 ## Run it locally
-Download the repo and double-click `index.html`.
+Clone or download the repository and open `index.html` in a browser.
 
 ---
-Built by [Jacob (Jake) Valdez](https://github.com/JacobDValdez) for Van Boys, with the client's permission to share.
+Designed and built by [Jacob (Jake) Valdez](https://github.com/JacobDValdez) for Van Boys, shared with the client's permission.
